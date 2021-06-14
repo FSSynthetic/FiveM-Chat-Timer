@@ -64,12 +64,9 @@ function calculateTime(count, increase) {
     notify("~g~Timer started: " + nTime + " " + info)
 
     function start() {
-        console.log("started")
         interval = setInterval(function(){
             timeLeft = count--;
-            console.log(count)
             if (count === 0){
-                console.log("Ended")
                 active = false;
                 clearInterval(interval); // Stopping the counter when reaching 0.
                 notify("Timer has ended!")
