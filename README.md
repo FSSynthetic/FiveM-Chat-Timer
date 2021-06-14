@@ -8,7 +8,7 @@ This script will allow the player to set one timer at a time by using the chat c
 > 
 > For example: /setTimer 12 m (This will set a timer for 12 minutes)
 
-. Let's say Timmy accidentally sets a timer for 12 hours instead of 12 minutes. Since the script will only allow a player to set one active timer at a time, he can't set another timer without the first one concluding. Well little Timmy, you're in luck. By using this chat command:
+Let's say Timmy accidentally sets a timer for 12 hours instead of 12 minutes. Since the script will only allow a player to set one active timer at a time, he can't set another timer without the first one concluding. Well little Timmy, you're in luck. By using this chat command:
 
 > `/stopTimer`
 
